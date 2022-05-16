@@ -6,9 +6,10 @@ You can make messenger like floating chat head.
 
 ## Getting started
 
-![]('assets/carbon.png')
+![](assets/carbon.png)
 
 Codes:
+
 ```
                NimuFloat(
                 child: CounterChild(
@@ -33,4 +34,4 @@ Codes:
 
 ## Usage
 
-TODO: You can find example in `/example` folder. 
+TODO: You can find example in `/example` folder.
