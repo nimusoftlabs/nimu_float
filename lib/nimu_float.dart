@@ -80,7 +80,7 @@ class _NimuFloatState extends State<NimuFloat> {
 }
 
 class CounterChild extends StatefulWidget {
-  /// Create badges of all types, check out [GFBadge] for button badges and [GFIconBadge] for icon badges.
+
   const CounterChild(
       {Key? key,
       this.padding = const EdgeInsets.symmetric(horizontal: 8),
@@ -90,17 +90,16 @@ class CounterChild extends StatefulWidget {
       : super(key: key);
 
   /// child of type [Widget] is used to show icon.
-  /// Use [GFIconButton] widget for compatibility.
+
   final Widget child;
 
   /// widget of type [Widget] is used to show counter to the top right corner of child.
-  /// You can use [GFBadge] for compatibility.
+
   final Widget counterChild;
 
   /// The internal padding for the badge's [child].
   final EdgeInsetsGeometry padding;
 
-  /// defines the position of [GFBadge].
   final CounterAlignment? position;
 
   @override
